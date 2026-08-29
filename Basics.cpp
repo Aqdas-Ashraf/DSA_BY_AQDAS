@@ -58,5 +58,15 @@ int main(){
 // cout<<"A";
 //     }
 
+ bool isAqdas = true;
+
+    if(isAqdas){
+        cout<<"hey Aqdas";
+    }
+    else{
+        cout<<"Who r u";
+    }
+
+
     return 0;
 }
