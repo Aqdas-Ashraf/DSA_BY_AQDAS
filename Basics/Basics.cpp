@@ -2,11 +2,27 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void printname(string dep , string name, int age){
-    cout<<"My age is :"<<age<<endl;
-    cout<<"My name is "<<name<<endl;
-    cout<<"My dep is "<<dep;
+// void printname(string dep , string name, int age){
+//     cout<<"My age is :"<<age<<endl;
+//     cout<<"My name is "<<name<<endl;
+//     cout<<"My dep is "<<dep;
+// }
+
+// int printnum(int min,int max){
+//     if(max>=min) return max;
+//     else return min;
+// }
+
+void dosoemthing(int &num){
+    cout<<num<<endl;
+    num+=5;
+    cout<<num<<endl;
+    num+=5;
+    cout<<num<<endl;
+    num+=5;
+    cout<<num<<endl;
 }
+
 
 int main(){
     // int x,y;
@@ -138,18 +154,26 @@ functions we use :
 void , return , parameterised , non parametarised
 */
 
-string name;
-string dep;
-int age;
-cout<<"Enter your age :";
-cin>>age;
-cin.ignore();
-cout<<"Enter your name : ";
-getline(cin,name);
-cout<<"Enter your dep : ";
-getline(cin,dep);
-printname(dep,name,age);
+// string name;
+// string dep;
+// int age;
+// cout<<"Enter your age :";
+// cin>>age;
+// cin.ignore();
+// cout<<"Enter your name : ";
+// getline(cin,name);
+// cout<<"Enter your dep : ";
+// getline(cin,dep);
+// printname(dep,name,age);
 
+// int min,max;
+// cin>> min >> max ;
+// int val = printnum(min,max);
+// cout<<val;
+
+int num = 10; // this original value not go
+dosoemthing(num); //it is pass by value
+cout<<num;
 
     return 0;
 }
