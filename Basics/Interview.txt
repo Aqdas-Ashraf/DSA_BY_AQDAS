@@ -13,3 +13,11 @@ and most of the server take 1second for 10^8 operation
 for 2 seoconds = 2*10^8 operation
 
 if in a coding round time limit is 1 seocnd then there time complexity of the code roughly around it should be O(10^8)
+
+
+{
+    Patterns are not asked by top tier companies unless it is tcs aur service based 
+    -- Atu jhatu Company --
+
+
+}
