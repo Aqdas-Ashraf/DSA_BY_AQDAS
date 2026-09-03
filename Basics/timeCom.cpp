@@ -26,7 +26,9 @@ affect it so we don't take constant as a operation
 // 1. theata Notation - Avearge complxity
 // 2. Omega Notation - Best Case Complexity
 
-
+/*
+If an Array of a[N] u define it means BigO(N) time complexity u used
+*/
 int main(){
     // Topic = Time Complexity
     // lets calculate for loop

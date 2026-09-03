@@ -1,0 +1,15 @@
+1.{
+ Never ever do anything to the input  
+    Because Data would be changed
+    int a ,b;
+    b = a+b;
+    it's correct but data will changed so don't do
+}
+    
+
+When u write code in Competative programming then send to the server
+which is like leetcode , codeStudio , GFG
+and most of the server take 1second for 10^8 operation 
+for 2 seoconds = 2*10^8 operation
+
+if in a coding round time limit is 1 seocnd then there time complexity of the code roughly around it should be O(10^8)
