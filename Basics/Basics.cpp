@@ -13,15 +13,15 @@ using namespace std;
 //     else return min;
 // }
 
-void dosoemthing(int &num){
-    cout<<num<<endl;
-    num+=5;
-    cout<<num<<endl;
-    num+=5;
-    cout<<num<<endl;
-    num+=5;
-    cout<<num<<endl;
-}
+// void dosoemthing(int &num){
+//     cout<<num<<endl;
+//     num+=5;
+//     cout<<num<<endl;
+//     num+=5;
+//     cout<<num<<endl;
+//     num+=5;
+//     cout<<num<<endl;
+// }
 
 
 int main(){
@@ -171,9 +171,9 @@ void , return , parameterised , non parametarised
 // int val = printnum(min,max);
 // cout<<val;
 
-int num = 10; // this original value not go
-dosoemthing(num); //it is pass by value
-cout<<num;
+// int num = 10; // this original value not go
+// dosoemthing(num); //it is pass by value
+// cout<<num;
 
     return 0;
 }
