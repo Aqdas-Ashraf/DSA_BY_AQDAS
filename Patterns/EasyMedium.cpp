@@ -59,16 +59,16 @@ for(int i=0;i<4;i++){ --- outer loop
 
 */
 
-int i=0;
-for(i=0;i<4;i++){
-    for(int j=0;j<4;j++){
-        cout<<"*";
-    }
-        cout<<" "<<i;
-        cout<<endl;
+// int i=0;
+// for(i=0;i<4;i++){
+//     for(int j=0;j<4;j++){
+//         cout<<"*";
+//     }
+//         cout<<" "<<i;
+//         cout<<endl;
 
-}
-}
+// }
+// }
 
 /*
 Dry Run : 
@@ -87,3 +87,139 @@ then outer loop run and i = 2
 and then again whole proccess happen 
 In the end I have the square of starts
 */
+
+
+/*
+#2 : 
+*
+**
+***
+****
+*****
+
+for(int i=1;i<=5;i++){
+    for(int j=1;j<=i;j++){
+        cout<<"* ";
+    }
+    cout<<endl;
+}
+}
+*/
+
+
+/*
+1
+12
+123
+1234
+12345
+
+for(int i=1;i<=5;i++){
+    for(int j=1;j<=i;j++){
+        cout<<j;
+    }
+    cout<<endl;
+}
+}
+*/
+
+/*
+1
+22
+333
+4444
+55555
+
+for(int i=1;i<=5;i++){
+    for(int j=1;j<=i;j++){
+        cout<<i;
+    }
+    cout<<endl;
+}
+}
+*/
+
+/*
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
+
+for(int i=1;i<=5;i++){
+    for(int j=5;j>=5-i+1;j--){
+        cout<<"* ";
+    }
+    cout<<endl;
+}
+}
+*/
+
+/*
+12345
+1234
+123
+12
+1
+
+for(int i=1;i<=5;i++){
+    for(int j=1;j<=5-i+1; j++){
+        cout<<j;
+    }
+    cout<<endl;
+}
+}
+*/
+
+
+/*
+    *    
+   ***   
+  *****  
+ ******* 
+*********
+
+
+int n;
+cin>>n;
+for(int i=0;i<n;i++){
+    for(int j=0;j<n-i-1; j++){
+        cout<<" ";
+    }
+    for(int k=0;k<2*i+1;k++){
+        cout<<"*";
+    }
+    for(int l=0;l<n-i-1;l++){
+        cout<<" ";
+    }
+    cout<<endl;
+}
+
+}
+*/
+
+/*
+*********
+ ******* 
+  *****  
+   ***   
+    *   
+
+    int n;
+cin>>n;
+for(int i=0;i<n;i++){
+    for(int j=0;j<i;j++){
+        cout<<" ";
+    }
+    for(int k=0;k<(2*n)-(2*i+1);k++){
+        cout<<"*";
+    }
+    for(int l=0;l<i;l++){
+        cout<<" ";
+    }
+    cout<<endl;
+
+}
+}
+*/
+}
