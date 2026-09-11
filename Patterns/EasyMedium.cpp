@@ -222,4 +222,151 @@ for(int i=0;i<n;i++){
 }
 }
 */
+
+
+/*
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
+
+    // Upper half
+ int n=5;
+    for(int i=0;i<n;i++){
+        for(int k=0;k<n-i-1;k++){
+            cout<<" ";
+        }
+        for(int l=0;l<2*i+1;l++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+    // lower half 
+    for(int i=n-2;i>=0;i--){
+        for(int t=0;t<n-i-1;t++){
+            cout<<" ";
+        }
+        for(int m=0;m<2*i+1;m++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+
+
+*/
+
+/*
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+
+
+int n=5;
+    for(int i=0;i<n;i++){
+        for(int k=0;k<=i;k++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+    for(int i=n-1;i>=1;i--){
+        for(int m=1;m<=i;m++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+
+    OR
+
+    int start = 1;
+    for(int i=1;i<=5;i++){
+        if(i%2 == 0) start = 0;
+        else start = 1;
+    for(int j=1;j<=i;j++){
+        cout<<start<<" ";
+        start = 1 - start;
+    }
+    cout<<endl;
+}
+*/
+
+/*
+1 
+0 1 
+1 0 1 
+0 1 0 1 
+
+*/
+
+
+/*
+1        1
+12      21
+123    321
+1234  4321
+1234554321
+
+for(int i=1;i<=5;i++){
+    for(int j=1;j<=i;j++){
+        cout<<j;
+    }
+     for(int j=0;j<5-i;j++){
+        cout<<" ";
+    }
+    for(int j=5-i;j>=1;j--){
+        cout<<" ";
+    }
+    for(int l=i;l>=1;l--){
+        cout<<l;
+    }
+    cout<<endl;
+}
+
+    OR
+    
+    
+int space = 2*(5-1);
+for(int i=1;i<=5;i++){
+    for(int j=1;j<=i;j++){
+        cout<<j;
+    }
+     for(int j=1;j<=space;j++){
+        cout<<" ";
+    }
+    for(int l=i;l>=1;l--){
+        cout<<l;
+    }
+    cout<<endl;
+    space -= 2;
+}
+*/
+
+/*
+1
+23
+456
+78910
+1112131415
+
+
+int num = 1;
+for(int i=1;i<=5;i++){
+    for(int j=1;j<=i;j++){
+        cout<<num;
+        num = num+1;
+    }
+    cout<<endl;
+}
+*/
+
 }
